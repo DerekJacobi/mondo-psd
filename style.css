@@ -1,5 +1,5 @@
 body {
-  background-image: url("background.png");
+  background-image: url("./images/background.png");
   background-size: contain;;
 }
 
@@ -9,7 +9,7 @@ h3 {
 }
 
 .top-left-logo {
-  background-image: url("top-left-logo.png");
+  background-image: url("./images/top-left-logo.png");
   width: 150px;
   height: 50px;
 }
@@ -21,7 +21,7 @@ h3 {
 }
 
 .is-cool {
-  background-image: url("is-cool.png");
+  background-image: url("./images/is-cool.png");
   width: 309px;
   height: 96px;
   margin-left: auto;
@@ -83,7 +83,7 @@ h3 {
 }
 
 .main-app-screenshot{
-  background-image: url("background-shockwave.png");
+  background-image: url("./images/background-shockwave.png");
   margin-top: 150px;
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@ h3 {
 }
 
 .left-main-app-screenshot {
-  background-image: url("left-main-app-screenshot.png");
+  background-image: url("./images/left-main-app-screenshot.png");
   width: 362px;
   height: 499px;
   background-size: 65%;
@@ -101,7 +101,7 @@ h3 {
 }
 
 .middle-main-app-screenshot {
-  background-image: url("middle-main-app-screenshot.png");
+  background-image: url("./images/middle-main-app-screenshot.png");
   width: 362px;
   height: 499px;
   margin-top: -90px;
@@ -110,7 +110,7 @@ h3 {
 }
 
 .right-main-app-screenshot {
-  background-image: url("right-main-app-screenshot.png");
+  background-image: url("./images/right-main-app-screenshot.png");
   width: 362px;
   height: 499px;
   background-size: 65%;
@@ -123,7 +123,7 @@ h3 {
 }
 
 .headphones {
-  background-image: url("headphones.png");
+  background-image: url("./images/headphones.png");
   width: 362px;
   height: 209px;
   background-size: 85%;
@@ -131,7 +131,7 @@ h3 {
 }
 
 .is-for-music {
-  background-image: url("is-for-music.png");
+  background-image: url("./images/is-for-music.png");
   width: 362px;
   height: 64px;
   background-size: 85%;
@@ -151,7 +151,7 @@ h3 {
 }
 
 .features-header{
-  background-image: url("features-header.png");
+  background-image: url("./images/features-header.png");
     width: 362px;
     height: 128px;
     margin-left: auto;
@@ -187,7 +187,7 @@ h3 {
 }
 
 #wheel-logo {
-  background-image: url("wheel-logo.png");
+  background-image: url("./images/wheel-logo.png");
   width: 74px;
   height: 59px;
   background-size: 65%;
@@ -195,7 +195,7 @@ h3 {
 }
 
 #shockwave-logo {
-  background-image: url("shockwave-logo.png");
+  background-image: url("./images/shockwave-logo.png");
   width: 74px;
   height: 59px;
   background-size: 65%;
@@ -203,7 +203,7 @@ h3 {
 }
 
 #volume-logo {
-  background-image: url("volume-logo.png");
+  background-image: url("./images/volume-logo.png");
   width: 74px;
   height: 59px;
   background-size: 65%;
@@ -211,7 +211,7 @@ h3 {
 }
 
 #small-headphones-logo {
-  background-image: url("headphones-logo.png");
+  background-image: url("./images/headphones-logo.png");
   width: 74px;
   height: 59px;
   background-size: 65%;
@@ -219,14 +219,14 @@ h3 {
 }
 
 #big-cellphone-with-logo {
-  background-image: url("large-cellphone.png");
+  background-image: url("./images/large-cellphone.png");
   width: 354px;
   height: 709px;
   margin-top: -40px;
   background-repeat: no-repeat;
 }
 .lorem-features {
-  background-image: url("lorem-features.png");
+  background-image: url("./images/lorem-features.png");
   margin-top: 15px;
   width: 374px;
   background-size: 85%;
@@ -245,7 +245,7 @@ h3 {
 }
 
 #right-multi-cell {
-  background-image: url("multiple-phones.png");
+  background-image: url("./images/multiple-phones.png");
   width: 50%;
   background-size: 95%;
   height: 338px;
