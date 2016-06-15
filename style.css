@@ -1,6 +1,6 @@
 body {
   background-image: url("./images/background.png");
-  background-size: contain;;
+  background-size: contain;
 }
 
 h3 {
@@ -237,6 +237,7 @@ h3 {
 
 #multi-cellphones {
   display: flex;
+  align-items: center;
 }
 
 
@@ -247,8 +248,104 @@ h3 {
 #right-multi-cell {
   background-image: url("./images/multiple-phones.png");
   width: 50%;
-  background-size: 95%;
-  height: 338px;
+  background-size: 100%;
+  height: 392px;
   background-repeat: no-repeat;
   margin-bottom: 140px;
+}
+
+#power-logo {
+  background-image: url("./images/power-logo.png");
+  width: 74px;
+  height: 59px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+#power {
+    margin-left: 20px;
+}
+
+#lower-comments {
+  background-image: url("./images/lower-comments-full-width.png");
+  width: 100%;
+  height: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#discover {
+  background-image: url("./images/discover-new.png");
+  width: 33%;
+  height: 160px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+#discover-left {
+  background-image: url("./images/discover-left.png");
+  background-size: 85%;
+  margin-top: 50px;
+}
+
+#discover-middle {
+  background-image: url("./images/discover-middle.png");
+  margin-left: -37px;
+  margin-right: -12px;
+  background-size: 100%;
+
+}
+
+#discover-right {
+  background-image: url("./images/discover-right.png");
+  background-size: 85%;
+  margin-top: 50px;
+}
+
+.discover-image{
+  width: 15%;
+  height: 340px;
+  background-repeat: no-repeat;
+}
+
+#faded-screenshots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  display: flex;
+  color: #4682b4;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-footer{
+    width: 49%;
+}
+
+#right-footer {
+  width: 49%;
+}
+
+#right-footer p {
+  float: right;
+  margin-right: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 30px;
+}
+
+ul li {
+  margin-right: 10px;
 }
