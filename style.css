@@ -1,0 +1,254 @@
+body {
+  background-image: url("background.png");
+  background-size: contain;;
+}
+
+h3 {
+  color: white;
+  font-weight: 500;
+}
+
+.top-left-logo {
+  background-image: url("top-left-logo.png");
+  width: 150px;
+  height: 50px;
+}
+
+.top-left-logo:hover{
+  -ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+
+.is-cool {
+  background-image: url("is-cool.png");
+  width: 309px;
+  height: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+
+#explore-text{
+  color: white;
+  font-size: .75rem;
+  margin: 0;
+}
+
+#explore-text:hover{
+  color: #4682B4;
+}
+
+#explore{
+  border: 1px solid #0066ff;
+  border-radius: 25px;
+  text-align: center;
+  width: 107px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#explore:hover{
+  border: 1px solid white;
+  background-color: lightblue;
+  width: 112px;
+  height: 28px;
+  cursor: pointer;
+}
+
+#view-more{
+  border: 1px solid #0066ff;
+  border-radius: 25px;
+  text-align: center;
+  width: 107px;
+  height: 25px;
+  transition: .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#view-more:hover{
+  border: 1px solid white;
+  background-color: lightblue;
+  width: 112px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.main-app-screenshot{
+  background-image: url("background-shockwave.png");
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+  background-repeat: no-repeat;
+}
+
+.left-main-app-screenshot {
+  background-image: url("left-main-app-screenshot.png");
+  width: 362px;
+  height: 499px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.middle-main-app-screenshot {
+  background-image: url("middle-main-app-screenshot.png");
+  width: 362px;
+  height: 499px;
+  margin-top: -90px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+.right-main-app-screenshot {
+  background-image: url("right-main-app-screenshot.png");
+  width: 362px;
+  height: 499px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.screenshot:hover{
+  width: 372px;
+  cursor: pointer;
+}
+
+.headphones {
+  background-image: url("headphones.png");
+  width: 362px;
+  height: 209px;
+  background-size: 85%;
+  background-repeat: no-repeat;
+}
+
+.is-for-music {
+  background-image: url("is-for-music.png");
+  width: 362px;
+  height: 64px;
+  background-size: 85%;
+  background-repeat: no-repeat;
+}
+
+.for-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lorem {
+  width: 510px;
+  color: lightgrey;
+  line-height: 30px;
+}
+
+.features-header{
+  background-image: url("features-header.png");
+    width: 362px;
+    height: 128px;
+    margin-left: auto;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    transition: .25s ease;
+}
+
+.features-header:hover{
+  height: 135px;
+  width: 370px;
+  cursor: pointer;
+}
+
+#features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.lorem-features {
+  color: lightgrey;
+  line-height: 22px;
+  font-size: 0.5rem;
+  margin-bottom: 30px;
+}
+
+.feature-column {
+  width: 30%;
+}
+
+#wheel-logo {
+  background-image: url("wheel-logo.png");
+  width: 74px;
+  height: 59px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+#shockwave-logo {
+  background-image: url("shockwave-logo.png");
+  width: 74px;
+  height: 59px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+#volume-logo {
+  background-image: url("volume-logo.png");
+  width: 74px;
+  height: 59px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+#small-headphones-logo {
+  background-image: url("headphones-logo.png");
+  width: 74px;
+  height: 59px;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+#big-cellphone-with-logo {
+  background-image: url("large-cellphone.png");
+  width: 354px;
+  height: 709px;
+  margin-top: -40px;
+  background-repeat: no-repeat;
+}
+.lorem-features {
+  background-image: url("lorem-features.png");
+  margin-top: 15px;
+  width: 374px;
+  background-size: 85%;
+  height: 139px;
+  background-repeat: no-repeat;
+}
+
+
+#multi-cellphones {
+  display: flex;
+}
+
+
+#left-multi-cell {
+  width: 50%;
+}
+
+#right-multi-cell {
+  background-image: url("multiple-phones.png");
+  width: 50%;
+  background-size: 95%;
+  height: 338px;
+  background-repeat: no-repeat;
+  margin-bottom: 140px;
+}
