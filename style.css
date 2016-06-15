@@ -94,32 +94,30 @@ h3 {
 
 .left-main-app-screenshot {
   background-image: url("./images/left-main-app-screenshot.png");
-  width: 362px;
-  height: 499px;
   background-size: 65%;
-  background-repeat: no-repeat;
 }
 
 .middle-main-app-screenshot {
   background-image: url("./images/middle-main-app-screenshot.png");
-  width: 362px;
-  height: 499px;
   margin-top: -90px;
   background-size: 75%;
-  background-repeat: no-repeat;
 }
 
 .right-main-app-screenshot {
   background-image: url("./images/right-main-app-screenshot.png");
-  width: 362px;
-  height: 499px;
   background-size: 65%;
-  background-repeat: no-repeat;
 }
 
 .screenshot:hover{
   width: 372px;
   cursor: pointer;
+}
+
+.screenshot{
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  width: 33%;
+  height: 499px;
 }
 
 .headphones {
@@ -152,15 +150,15 @@ h3 {
 
 .features-header{
   background-image: url("./images/features-header.png");
-    width: 362px;
-    height: 128px;
-    margin-left: auto;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    margin-right: auto;
-    margin-top: 120px;
-    border-radius: 10px;
-    transition: .25s ease;
+  width: 370px;
+  background-size: contain;
+  height: 128px;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-top: 120px;
+  border-radius: 10px;
+  transition: .25s ease;
 }
 
 .selue-features {
@@ -184,6 +182,7 @@ h3 {
   line-height: 22px;
   font-size: 0.5rem;
   margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 .feature-column {
@@ -195,6 +194,7 @@ h3 {
   width: 74px;
   height: 59px;
   background-size: 65%;
+  margin-left: 20px;
   background-repeat: no-repeat;
 }
 
@@ -203,6 +203,7 @@ h3 {
   width: 74px;
   height: 59px;
   background-size: 65%;
+  margin-left: 20px;
   background-repeat: no-repeat;
 }
 
@@ -211,6 +212,7 @@ h3 {
   width: 74px;
   height: 59px;
   background-size: 65%;
+  margin-left: 20px;
   background-repeat: no-repeat;
 }
 
@@ -219,6 +221,7 @@ h3 {
   width: 74px;
   height: 59px;
   background-size: 65%;
+  margin-left: 20px;
   background-repeat: no-repeat;
 }
 
@@ -367,7 +370,7 @@ ul li:hover{
   cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
   body {
     background-image: url("./images/background.png");
@@ -468,6 +471,7 @@ ul li:hover{
     margin-left: auto;
     margin-right: auto;
     width: 60px;
+    background-size: contain;
   }
 
   .headphones{
@@ -504,18 +508,6 @@ ul li:hover{
     height: 200px;
   }
 
-  #footer{
-    flex-direction: column;
-  }
-
-  #left-footer{
-    width: 340px;
-  }
-
-  #right-footer{
-    width: 400px;
-  }
-
   #left-multi-cell{
     width: 100%;
     margin-left: auto;
@@ -538,12 +530,102 @@ ul li:hover{
   #power-logo{
     margin-top: -60px;
   }
+
+  #footer{
+    flex-direction: column;
+  }
+
+  #left-footer{
+    width: 340px;
+  }
+
+  #right-footer{
+    width: 400px;
+  }
 }
 
-@media screen and (min-width: 500px ) and (max-width: 800px) {
+@media screen and (min-width: 650px ) and (max-width: 1024px) {
   #features{
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
+
+  .feature-column{
+    width: 100%;
+  }
+
+  #volume{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #shockwave{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #wheel{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #small-headphones{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lorem-features{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    background-size: contain;
+  }
+
+  #big-cellphone-with-logo {
+    display: none;
+  }
+
+  #right-multi-cell {
+    margin-bottom: 0;
+  }
+
+  #footer{
+    flex-direction: column;
+  }
+
+  #left-footer{
+    width: 340px;
+  }
+
+  #right-footer{
+    width: 400px;
+  }
+
+  .screenshot{
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .is-cool {
+    margin-top: 30px;
+  }
+
+  #lower-comments{
+    height: 200px;
+    width: 90%;
+    margin-left: auto;
+    background-size: cover;
+    margin-right: auto;
+  }
+
 }
